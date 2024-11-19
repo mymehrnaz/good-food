@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+	rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1a804c7335.js" crossorigin="anonymous"></script>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>Iranian Cuisines</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar bg-light fixed-top">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Food <span class="yek">for</span> love</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+					  <a class="nav-link active" aria-current="page" href="#">About Iranian foods</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Cuisines</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Deserts</a>
+					  </li>
+			
+			
+					
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Dropdown
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Snacks</a></li>
+						<li><a class="dropdown-item" href="#">search our recipes</a></li>
+						<li>
+						  <hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="#">Contact us</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				  <form class="d-flex mt-3" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				  </form>
+				  
+				</div>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+	<main>
+	    <div class="mt-5 do">
+	     <h1 class="do animate__animated animate__heartBeat">
+			Taste the flavors of ancient Persia
+		 </h1>
+		 <h2 class="animate__animated animate__fadeIn">Discover Persia on Your Plate
+		 </h2>
+	    </div>
+		<div class="text-center">
+			<img src="./1727423-نقاشی-آبرنگی-از-دختر-ایرانی-با-شال-و-موهای-بلند-در-کنار-سفره-هفت-سین.jpg" class="rounded" width="50%" alt="painting-iranian-girl">
+		</div>
+		<div class="see mt-3">
+			<p>
+				Iranian cuisine is the culinary traditions of Iran. Due to the historically common usage of the term "Persia" to refer to Iran in the Western world, it is alternatively known as Persian cuisine, despite Persians being only one of a multitude of Iranian ethnic groups who have contributed to Iran's culinary traditions.Iran has a variety of 2,500 types of traditional food, one of the richest in the world.The cuisine of Iran has made extensive contact throughout its history with the cuisines of its neighbouring regions, including Caucasian cuisine, Central Asian cuisine, Greek cuisine, Levantine cuisine, Mesopotamian cuisine, Russian cuisine and Turkish cuisine.Aspects of Iranian cuisine have also been significantly adopted by Indian cuisine and Pakistani cuisine through various historical Persianate sultanates that flourished during Muslim rule on the Indian subcontinent, with the most notable and impactful of these polities being the Mughal Empire.
+
+
+			</p>
+		</div>
+		<div class="container text-center mb-3">
+			<div class="row">
+			  <div class="col"><a class="block md:hover:opacity-60 flex flex-col h-full" href="#"><img src="./popular.jpg" width="50%" class="block md:hover:opacity-60 flex flex-col h-ful ask"></a><p class="relative -mt-4 bg-yellow-500 px-2 sm:px-6 py-2 mx-auto text-black bg-yellow-500 text-xxs sm:text-xs font-bold uppercase tracking-extra-widest sm:tracking-giant">Most popular</p></div>
+			  <div class="col"><img src="./soup.jpg" width="70%" class="ask"><p class="pange relative -mt-4 bg-gray-800 px-2 sm:px-6 py-2 mx-auto text-black bg-gray-800 text-xxs sm:text-xs font-bold uppercase tracking-extra-widest sm:tracking-giant">Soups</p></div>
+			  <div class="col"><img src="./deser.jpg" width="50%" class="ask"><p class="relative -mt-4 bg-gray-500 px-2 sm:px-6 py-2 mx-auto text-black bg-gray-500 text-xxs sm:text-xs font-bold uppercase tracking-extra-widest sm:tracking-giant">DESSERTS</p></div>
+			  <div class="col"><a href="#drink"><img src="./DRINK.jpg" width="50%" class="ask"><p class="relative -mt-4 bg-gray-500 px-2 sm:px-6 py-2 mx-auto text-black bg-gray-500 text-xxs sm:text-xs font-bold uppercase tracking-extra-widest sm:tracking-giant">Drinks</p></a></div>
+			</div>
+		</div>
+		<div class="scrollmenu">
+			<a href="#logo"><img src="./abgoosht1-768x576.jpg.webp" alt="abgoosht" width="150px" class="ask"><br/>Abgoosht</a>
+			<a href="#tehran">
+				<img src="./800-600-zereshk-768x576.jpg" alt="zereshk-polo" width="150px" class="ask"><br/>Zereshk Polo
+			  </a>
+			<a href="#isfahan">
+				<img src="./Baghali-Polo-ba-Mahicheh-768x576.jpg.webp" class="ask" alt="sabzi-polo" width="150px"><br/>Sabzi-Baghali Polo ba Mahicheh
+
+			  </a>
+			<a href="#shiraz"><img src="./800-600-Koobideh-768x576.jpg" class="ask" alt="..." width="150px"><br/>Kabab Koobideh</a>
+			<a href="#mashad"><img src="./Ashe-Reshteh-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Ashe Reshteh</a>
+			<a href="#tabriz"><img src="./chicken-kebab-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Joojeh Kabab</a>
+			<a href="#rasht"><img src="./ghorme-sabzi-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Gormeh Sbzi</a>
+			<a href="#ahvaz"><img src="./khoresht-bademjan-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Khoreshteh Bdemjan</a>
+			<a href="#kermanshah"><img src="./khoresht-e-fesenjan-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Fesenjan</a>
+			<a href="#yazd"><img src="./Kufteh-Tabrizi-768x576.jpg" class="ask" alt="..." width="150px"><br/>Kofteh Tabrizi</a>
+			<a href="#qazvin"><img src="./Tahchin-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Tahchin</a>
+			<a href="#qeshm"> <img src="./kuku-sabzi-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Koko sabzi</a>
+			<a href="#babol"><img src="./tahdig-768x576.jpg.webp" class="ask" alt="..." width="150px"><br/>Tahdig</a>
+			<a href="#kashan"><img src="./kale_pache-768x741.jpg.webp" class="ask" alt="..." width="130px"><br/>Kaleh pache</a>
+			<a href="#about"><img src="./lobia-polo_6-768x576.jpg" class="ask" alt="..." width="150px"><br/>Lobia polo</a>
+
+		</div>
+
+		
+	
+	<div class="container mt-3">
+		<h4>search our recipes</h4>
+		<div class="search-container">
+			<i class="fas fa-search"></i>
+			<input type="text" id="searchInput"
+				placeholder="search">
+			<button id="searchBtn">Search</button>
+		</div>
+		<div class="recipe-container" id="recipeContainer"></div>
+	</div>
+	<div class="modal" id="recipeModal">
+		<div class="modal-content">
+			<span class="close" id="closeBtn">×</span>
+			<div id="modalContent"></div>
+		</div>
+	</div>
+	<h2 class="mt-3  animate__animated animate__backInLeft" id="drink">Most popular Iranian Drinks</h2>
+	<section class="thr">
+		<div class="split-container">
+			   <div class="split-left d-flex justify-content-evenly">
+				 <img src ="./tokhm.jpg" width="50%" class="d-flex justify-content-left">
+				   <h1 class="d-flex justify-content-right">Tokhm-e Sharbati(basil seed)</h1>
+				   <p>This beverage is one of the most popular Sharbats(sweet drinks) among Iranians
+					   <br>It also has so many benefits for your health.
+				   </p>
+			   </div>
+			   <div class="split-right">
+				 <img src ="./tea.jpg" width="50%">
+				   <h1>Iranian Tea</h1>
+				   <p>Persian tea is perhaps the most popular drink in Iranian cuisine
+					   <br> You can add your content here.
+				   </p>
+			   </div>
+		   </div>
+		   </section>
+		   <section class="thr">
+			<div class="split-container">
+				   <div class="split-left d-flex justify-content-evenly">
+					 <img src ="./sekanjabin.jpg" width="30%" class="d-flex justify-content-left">
+					   <h1 class="d-flex justify-content-right">Sekanjabin Syrup</h1>
+					   <p>Sekanjabin, one of the oldest Iranian drinks, is made of honey and vinegar. .
+						   <br> 
+					   </p>
+				   </div>
+				   <div class="split-right">
+					 <img src ="./doogh.webp" width="30%">
+					   <h1>Doogh (Persian Yogurt Drink)
+					</h1>
+					   <p>This popular Iranian beverage is made of yogurt, salt, water, and sometimes herbs such as peppermint.
+						   <br> Doogh is healthy, tasty, and ideal for drinking with meals
+					   </p>
+				   </div>
+			   </div>
+			   </section>
+		   
+	   
+	</main>
+	<div class="container mt-3">
+		<div class="comment-box gradient-bg">
+		<h2 class="comment-title">Join the conversation</h2>
+		<form>
+		  <div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name">
+		  </div>
+		  <div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email">
+		  </div>
+		  <div class="form-group">
+			<label for="comment">Comment:</label>
+			<textarea id="comment" name="comment" placeholder="Type your comment here"></textarea>
+		  </div>
+		  <button type="submit" class="btn-submit">Submit</button>
+		</form>
+	  </div>
+	  </div>
+	  
+	
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
