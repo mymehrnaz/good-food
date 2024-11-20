@@ -18,6 +18,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
+
 .search-container {
 	display: flex;
 	align-items: center;
@@ -322,6 +323,13 @@ h2{
 
 
 }
+h3{
+	text-align: center;
+	color: #111;
+	font-family:"Roboto", serif ;
+	font-weight: 600;
+	font-style: italic;
+}
 p{
     text-align: center;
     color: black;
@@ -504,11 +512,11 @@ p {
 	.split-right {
 		margin: 5px;
 		width: 95%;
-		height: 38vh;
+		height: 28vh;
 	}
 }
 body {
-font-family: Arial;
+
 color: white;
 }
 
@@ -547,4 +555,15 @@ border-radius: 50%;
 .fang{
 display: flex;
 justify-content :space-between;
+}
+@media(max-width: 900px){
+	h1{
+		font-size: 44px;
+	}
+	h2{
+		font-size: 44px;
+	}
+	p{
+		font-size: 26px;
+	}
 }
